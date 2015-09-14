@@ -1,6 +1,8 @@
 FROM python:2.7.8
 
-RUN pip install pip install shadowsocks
+RUN apt–get install python–gevent python–pip
+RUN pip install shadowsocks
+RUN pip install  python–m2crypto
 
 RUN mkdir -p /usr/src/app
 
