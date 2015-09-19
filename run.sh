@@ -1,2 +1,2 @@
 #!/bin/bash
-exec ssserver -c /etc/shadowsocks.json -d start
+exec ssserver -c /etc/shadowsocks.json  start
