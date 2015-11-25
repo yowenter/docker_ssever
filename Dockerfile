@@ -11,7 +11,7 @@ RUN mkdir -p /usr/src/app
 COPY . /usr/src/app
 
 WORKDIR /usr/src/app
-EXPORT 8080
+EXPOSE 8080
 
 
 CMD ["/usr/local/bin/ssserver -p 8080 -k password -m aes-256-cfb"]
