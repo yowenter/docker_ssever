@@ -11,7 +11,7 @@ RUN mkdir -p /usr/src/app
 COPY . /usr/src/app
 
 WORKDIR /usr/src/app
-EXPOSE 8080
+EXPOSE 1080
 
 
 CMD ["/usr/local/bin/ssserver","-p", "1080", "-k", "password", "-m", "aes-256-cfb"]
