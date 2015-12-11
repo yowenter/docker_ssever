@@ -14,4 +14,4 @@ WORKDIR /usr/src/app
 EXPOSE 8080
 
 
-CMD ["/usr/local/bin/ssserver -p 8080 -k password -m aes-256-cfb"]
+CMD ["/usr/local/bin/ssserver","-p", "1080", "-k", "password", "-m", "aes-256-cfb"]
