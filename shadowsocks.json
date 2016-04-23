@@ -1,8 +1,0 @@
-{
-    "server":"0.0.0.0",
-    "server_port":8080,
-    "password":"password",
-    "method":"aes-256-cfb",
-    "timeout":500,
-    "fast_open": false
-}
