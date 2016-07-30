@@ -1,0 +1,5 @@
+shadowsocks:
+  image: daocloud.io/airywenter/shadowsocks:v1.0
+  ports:
+  - 443:1080
+  restart:always
