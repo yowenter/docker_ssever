@@ -13,5 +13,7 @@ COPY . /usr/src/app
 WORKDIR /usr/src/app
 EXPOSE 1080
 
+ENV SS_PASSWORD dododo
+ENV SS_METHOD rc4-md5
 
-CMD ["/usr/local/bin/ssserver","-p", "1080", "-k", "password", "-m", "aes-256-cfb"]
+CMD ["sh","run.sh"]
